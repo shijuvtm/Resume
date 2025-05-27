@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+      }
+.app-container {
+    display: flex;
+    height: 100vh;
+       }
+
+.sidebar {
+    width: 250px;
+    background: #f1f5f9;
+    padding: 1rem;
+          }
+
+ .main-content {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+          }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #e0f2fe;
+    align-items: center;
+         }
+
+.dashboard-content {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+         }
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #fff;
+       }
+
+ .card.red {
+ background: #ef4444;
+     }
+ .card.yellow { 
+ background: #facc1; 
+     }
+ .card.gray {
+  background: #9ca3af; 
+}
+
